@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/row"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnOk"/>
+
+    <ImageButton
+        android:id="@+id/btnOk"
+        android:layout_width="361dp"
+        android:layout_height="78dp"
+        android:background="#61EC6C5B"
+        android:paddingLeft="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancel"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/include"
+        app:layout_constraintVertical_weight="1"
+        app:srcCompat="@mipmap/ic_right_foreground" />
+
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:background="#A6CCFC"
+        android:paddingRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/btnOk"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_weight="1"
+        app:srcCompat="@mipmap/ic_cancel_foreground" />
+</androidx.constraintlayout.widget.ConstraintLayout>

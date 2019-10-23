@@ -17,7 +17,7 @@ A groub of Android Apps that were implemented using Android Studio IDE & XML & J
 <li><dl>
       <dt><h4>Lab4_PostsOfPhotosTimeline</h4></dt>
       <dd>A demo of social app that give user an ability to capture photos and add them in a timeline.</dd>
-      <dd style="font-size:11px">#ListView, #Adapter_Class, #Activity,#intent</dd>
+      <dd style="color:red">#ListView, #Adapter_Class, #Activity,#intent</dd>
     </dl>
 </li> 
 <li><dl>

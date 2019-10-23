@@ -1,2 +1,4 @@
 # ceng3505_GUI_Labs
-CENG3505 - Graphical User Interface (GUI) Labs which were implemented using Android Studio IDE & XML & JAVA.
+A groub of Android Apps that were implemented using Android Studio IDE & XML & JAVA.
+
+<h1>Lab2_MyFirstApplication</h1>

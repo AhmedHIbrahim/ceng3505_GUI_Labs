@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Creating listview_row activity : it will  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--Creating ImageView : its image Resource will be set using AnimalAdapter.java -->
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        />
+
+    <!--Creating TextView : its content will be set using AnimalAdapter.java -->
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

@@ -26,3 +26,15 @@ A groub of Android Apps that were implemented using Android Studio IDE & XML & J
       <dd><small>#Inflater, #Intent, #WebView<small></dd>
     </dl>
 </li> 
+<li><dl>
+      <dt><h4>Lab6_7_TicTacToe</h4></dt>
+      <dd>A demo of TicTacToe game which has the ability to store game state, then reload it later. Moreover, the game state is saved and reloaded automatically when the orientation of a device changes </dd>
+      <dd><small>#Inflater, #Intent, #TableLayout,#orientation, #Lifecycle<small></dd>
+    </dl>
+</li>
+<li><dl>
+      <dt><h4>Lab8_Movies_Browser</h4></dt>
+      <dd>Using fragments, You can choose a movie from listView_fragment and read the details of the movie in details_fragment</dd>
+      <dd><small>#Inflater,#fragment, #Intent<small></dd>
+    </dl>
+</li>

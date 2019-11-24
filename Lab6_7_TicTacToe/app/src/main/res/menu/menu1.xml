@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="New Game"
+        android:id="@+id/newGame"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:onClick="NewGame"/>
+
+    <item
+        android:title="Save"
+        android:id="@+id/Save"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:onClick="SaveGame"/>
+    <item
+        android:title="Load"
+        android:id="@+id/Load"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:onClick="LoadGame"/>
+</menu>
